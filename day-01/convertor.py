@@ -1,10 +1,10 @@
 print("Welcome to python unit convertor!")
 print("Choose your number to continue : ")
 
-choice=input(" 1. Temprature \n 2. Distance \n Enter your value : ")
+choice=input(" 1. Temperature \n 2. Distance \n Enter your value : ")
 
-def temprature():
-    temprature_choice = input(" 1. Celcius to Kelvin \n 2. Kelvin to Celcius ")
+def temperature():
+    temperature_choice = input(" 1. Celcius to Kelvin \n 2. Kelvin to Celcius ")
 
     def celcius_to_kelvin():
             print("Celcius to Kelvin...")
@@ -22,9 +22,9 @@ def temprature():
 
     while True:
         try:
-            if temprature_choice == "1":
+            if temperature_choice == "1":
                 celcius_to_kelvin()
-            elif temprature_choice == "2":
+            elif temperature_choice == "2":
                 kelvin_to_celcius()
             else:
                 print("Invalid choice!")
@@ -34,4 +34,4 @@ def temprature():
 
 
 if choice == '1':
-     temprature()
+     temperature()
