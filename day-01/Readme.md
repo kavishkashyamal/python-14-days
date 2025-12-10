@@ -1,4 +1,4 @@
-#Convertorx - Simple python unit convetor (Day-01)
+# Convertorx - Simple python unit convetor (Day-01)
 
 **Description**
 - The script 'convertor.py' prints a welcome message.
