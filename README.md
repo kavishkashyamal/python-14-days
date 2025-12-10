@@ -8,7 +8,7 @@ To explore the projects, clone the repository and navigate to the folder for the
 
 ```bash
 # Clone the repository
-git clone [https://github.com/kavishkashyamal/python-14-days.git](https://github.com/kavishkashyamal/python-14-days.git)
+git clone https://github.com/kavishkashyamal/python-14-days.git
 cd python-14-days
 ````
 
